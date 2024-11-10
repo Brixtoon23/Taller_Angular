@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-5">
+      <table class="table table-light" id="series-table">
+          <thead>
+              <tr class="header-row">
+                  <th scope="col" id="white-cell">#</th>
+                  <th scope="col" id="white-cell">Name</th>
+                  <th scope="col" id="white-cell">Channel</th>
+                  <th scope="col" id="white-cell">Seasons</th>
+              </tr>
+          </thead>
+      <tbody>
+        <tr *ngFor="let serie of series">
+          <td>{{ serie.id }}</td>
+          <td>{{ serie.name }}</td>
+          <td>{{ serie.channel }}</td>
+          <td>{{ serie.seasons }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Promedio de temporadas: {{ averageSeasons }}</p>
+
+  </div>
+</div>

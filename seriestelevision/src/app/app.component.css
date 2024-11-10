@@ -1,0 +1,14 @@
+
+.title {
+    background-color: skyblue;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title-wrapper {
+    margin-bottom: 30px;
+    background-color: white;
+}
+
